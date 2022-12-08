@@ -62,7 +62,7 @@
 
 @layer utilities {
   .underline {
-    text-decoration-color: hsl(224, 6%, 54%);
+    text-decoration-color: hsl(224, 6%, 65%);
   }
   @layer dark {
     .underline-dark {
