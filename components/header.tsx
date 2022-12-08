@@ -18,8 +18,8 @@ const Header = () => {
         </Link>
       </div>
       <div className={justLogo ? "hidden" : ""}>
-        <h1 className="text-base">Nico Albanese</h1>
-        <h2 className="text-tertiary dark:text-darkTertiary">VC & Maker</h2>
+        <h2 className="">Nico Albanese</h2>
+        <p className="text-tertiary text-md font-medium dark:text-darkTertiary">VC & Maker</p>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Layout from "../../components/layout";
 import { fetchInvestments } from "../../lib/airtable";
 import type { Investment } from "../../lib/airtable";
 import Link from "next/link";
+import Head from "next/head";
 
 const InvestmentsShowcase = ({
   initInvestments,
@@ -16,6 +17,9 @@ const InvestmentsShowcase = ({
   }, []);
   return (
     <Layout>
+      <Head>
+        <title>Investments</title>
+      </Head>
       <h1>Investments</h1>
       <p className="mb-4">
         Since joining Ascension, I have been fortunate to work with a host of

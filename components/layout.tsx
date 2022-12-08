@@ -21,14 +21,16 @@ const Layout = ({ children }: { children: any }) => {
             © {new Date().getFullYear()} Nico Albanese
           </p>
           <div className="flex flex-row">
-            <a
+            <Link
               href="https://twitter.com/nicoalbanese10"
+              target={"_blank"}
               className="mr-4 text-sm text-tertiary dark:text-darkTertiary"
             >
               Twitter
-            </a>
+            </Link>
             <Link
-              href="/"
+              href="https://www.linkedin.com/in/nicoalbanese/"
+              target={"_blank"}
               className="text-sm text-tertiary dark:text-darkTertiary"
             >
               Linkedin

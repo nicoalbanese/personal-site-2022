@@ -3,52 +3,81 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-      @apply font-sans bg-background dark:bg-darkBackground text-primary dark:text-darkPrimary selection:bg-selection selection:text-primary;
-    }
-  
-    h1 {
-      @apply font-medium;
-    }
-    h2 {
-      @apply font-medium;
-    }
-  
-    h3 {
-      @apply font-medium text-tertiary dark:text-darkTertiary;
-    }
-  
-    p {
-      @apply text-secondary dark:text-darkSecondary;
-    }
-  
-    a {
-      @apply underline transition duration-300 ease-in-out dark:underline-dark text-secondary dark:text-darkSecondary;
-    }
-    a:hover {
-      @apply underline transition duration-300 ease-in-out dark:underline-dark text-primary dark:text-darkPrimary;
-    }
-  
-    ul {
-      @apply my-2 ml-4 list-disc list-inside text-secondary dark:text-darkSecondary;
-    }
-  
-    code {
-      @apply px-1 py-0.5 bg-code dark:bg-darkCode rounded-sm text-sm;
-    }
-  }
-  
-  @layer utilities {
-    .underline {
-      text-decoration-color: hsl(224, 6%, 54%);
-    }
-    @layer dark {
-      .underline-dark {
-        text-decoration-color: hsl(224, 25%, 46%);
-      }
-    }
+  body {
+    @apply font-sans bg-background dark:bg-darkBackground text-primary dark:text-darkPrimary selection:bg-selection selection:text-primary;
   }
 
   h1 {
-    @apply font-bold text-3xl mb-1;
+    @apply font-medium;
   }
+  h2 {
+    @apply font-medium;
+  }
+
+  h3 {
+    @apply font-medium ;
+  }
+
+  p {
+    @apply text-secondary dark:text-darkSecondary;
+  }
+
+  a {
+    @apply underline transition duration-300 ease-in-out dark:underline-dark text-secondary dark:text-darkSecondary;
+  }
+  a:hover {
+    @apply underline transition duration-300 ease-in-out dark:underline-dark text-primary dark:text-darkPrimary;
+  }
+
+  #md-display code {
+    @apply px-1 py-0.5 bg-code dark:bg-darkCode rounded-sm text-sm;
+  }
+
+  #md-display ul {
+    @apply my-2 ml-6 list-disc list-outside text-secondary dark:text-darkSecondary;
+  }
+  #md-display ol {
+    @apply my-2 ml-6 list-decimal list-outside text-secondary dark:text-darkSecondary;
+  }
+
+  #md-display li {
+    @apply mb-2 pl-2;
+  }
+
+  #md-display img {
+    @apply py-4;
+  }
+  #md-display p {
+    @apply py-3;
+  }
+
+  #md-display blockquote {
+    @apply p-4 my-4 bg-gray-100 border-l-4 border-gray-300 dark:border-gray-500 dark:bg-gray-800;
+  }
+
+  #md-display h3 {
+    @apply font-bold text-xl mt-6 mb-4;
+  }
+}
+
+@layer utilities {
+  .underline {
+    text-decoration-color: hsl(224, 6%, 54%);
+  }
+  @layer dark {
+    .underline-dark {
+      text-decoration-color: hsl(224, 25%, 46%);
+    }
+  }
+}
+
+h1 {
+  @apply font-bold text-3xl mb-1;
+}
+
+h2 {
+  @apply font-bold text-2xl mb-1;
+}
+h4 {
+  @apply font-bold text-xl mb-1;
+}
