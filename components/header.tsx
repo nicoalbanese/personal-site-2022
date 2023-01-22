@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <div className="flex flex-col items-start">
       <div className="grid items-center mb-2 grid-cols-auto grid-rows-auto justify-items-center ">
-        <Link className="z-10 col-1 row-1" href="/">
+        <Link className="z-10 col-1 row-1 hover:opacity-60" href="/">
           <Image src={"/memoji.png"} width={80} height={80} alt={"memoji"} />
         </Link>
       </div>

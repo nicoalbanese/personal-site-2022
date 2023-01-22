@@ -37,19 +37,14 @@ const HeadlineBio = () => {
           Ascension
         </Link>{" "}
         where I focus on pre-Seed and Seed investments. I have been lucky to
-        partner with <Link href="/investments">many amazing companies</Link>.
+        invest in <Link href="/investments">many amazing companies</Link>.
       </p>
       <p>
-        Aside from work, I am an avid football fan (COYG) and love building
-        things that make my life a little easier (
-        <Link href="https://www.github.com/nicoalbanese" target={"_blank"}>
-          GitHub
-        </Link>
-        ). I also love and{" "}
-        <Link href="/music">
-          used to make music
-        </Link>{" "}
-        and always love to talk music.
+        Aside from work, I am an avid football fan (COYG) and{" "}
+        <Link href="/projects">love building things</Link> that make my life a
+        little easier. I also love and{" "}
+        <Link href="/music">used to make music</Link> and always love to talk
+        music.
       </p>
     </Section>
   );

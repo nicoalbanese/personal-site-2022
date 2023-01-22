@@ -15,7 +15,7 @@
   }
 
   h3 {
-    @apply font-medium ;
+    @apply font-medium;
   }
 
   p {
@@ -58,6 +58,43 @@
   #md-display h3 {
     @apply font-bold text-xl mt-6 mb-4;
   }
+
+  #project-article ul {
+    @apply my-2 ml-6 list-disc list-outside text-secondary dark:text-darkSecondary;
+  }
+  #project-article ol {
+    @apply my-2 ml-6 list-decimal list-outside text-secondary dark:text-darkSecondary;
+  }
+
+  #project-article li {
+    @apply mb-1 pl-2;
+  }
+
+  #project-article img {
+    @apply py-4;
+  }
+  #project-article p {
+    @apply mb-8;
+  }
+
+  #project-article blockquote {
+    @apply p-4 my-6 bg-gray-100 border-l-4 border-gray-300 dark:border-gray-500 dark:bg-gray-800;
+  }
+
+  #project-article h3 {
+    @apply font-bold text-xl mt-6;
+  }
+  #project-article a {
+    @apply hover:opacity-60;
+  }
+
+  #solution-section>div h5 {
+    @apply font-bold pt-6 pb-2;
+  }
+  #solution-section>div p {
+    @apply py-3;
+  }
+
 }
 
 @layer utilities {
