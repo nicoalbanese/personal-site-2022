@@ -18,7 +18,7 @@ const DealflowHub = () => {
           <p>
             We used to use{" "}
             <Link href={"https://www.affinity.co/"}>Affinity</Link> for all
-            things deal flow at Ascension but found it was quite an expensive
+            things deal flow at <Link href={"https://ascension.vc"}>Ascension</Link> but found it was quite an expensive
             solution for the small team we were at the time (3 partners and 2
             Associates) and that it wasn&apos;t as extensible as we would have liked
             (note: this was in 2019 and I understand that it has improved
@@ -165,7 +165,7 @@ const DealflowHub = () => {
                 here
               </Link>
               . This project was an excuse to play around with T3 Stack and boy
-              was it fun. Definitely check it out if you&apos;re interested in
+              was it fun. T3 was definitely overkill for this project but definitely check it out if you&apos;re interested in
               building full-stack apps. Note: I’m a self taught developer and so
               the code is the exact opposite of elegant 😂
             </p>
@@ -201,7 +201,7 @@ const DealflowHub = () => {
             <p className="mt-4">
               There are two other important elements of the dealflow hub that I
               will go over in a future post: 1) Triage Early Pipeline; 2)
-              Rejection Email Drafter. Both save me hours a day and I&apos;m
+              Pass Email Drafter. Both save me hours a day and I&apos;m
               really excited to share soon 👀
             </p>
           </div>
