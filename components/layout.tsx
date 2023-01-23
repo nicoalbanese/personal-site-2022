@@ -24,14 +24,14 @@ const Layout = ({ children }: { children: any }) => {
             <Link
               href="https://twitter.com/nicoalbanese10"
               target={"_blank"}
-              className="mr-4 text-sm text-tertiary dark:text-darkTertiary"
+              className="mr-4 text-sm text-tertiary dark:text-darkTertiary dark:decoration-slate-500"
             >
               Twitter
             </Link>
             <Link
               href="https://www.linkedin.com/in/nicoalbanese/"
               target={"_blank"}
-              className="text-sm text-tertiary dark:text-darkTertiary"
+              className="text-sm text-tertiary dark:text-darkTertiary dark:decoration-slate-500"
             >
               Linkedin
             </Link>

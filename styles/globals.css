@@ -23,7 +23,7 @@
   }
 
   a {
-    @apply underline transition duration-300 ease-in-out dark:underline-dark text-secondary dark:text-darkSecondary;
+    @apply underline transition duration-300 ease-in-out dark:underline-dark text-link dark:text-darkLink;
   }
   a:hover {
     @apply underline transition duration-300 ease-in-out dark:underline-dark text-primary dark:text-darkPrimary;
