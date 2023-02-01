@@ -19,10 +19,10 @@ const MainContent = ({ posts }: { posts: Post[] }) => {
   return (
     <div className="grid max-w-full gap-16 auto-rows-auto">
       <HeadlineBio />
-      <div className="">
+      {/* <div className="">
         <h4>Recent Posts</h4>
         <RecentPosts posts={posts} />
-      </div>
+      </div> */}
     </div>
   );
 };
