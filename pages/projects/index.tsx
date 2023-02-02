@@ -64,7 +64,7 @@ const Project = ({
           </svg>
         </span>
       </div>
-      <div id="description" className="">
+      <div id="description" className="text-primary dark:text-darkPrimary" >
         {description}
       </div>
     </Link>
