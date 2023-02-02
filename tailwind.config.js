@@ -16,7 +16,7 @@ module.exports = {
       textColor: {
         primary: "hsl(0, 0%, 5%)",
         secondary: "hsl(0, 0%, 23%)",
-        link: "hsl(144, 72%, 25%)",
+        link: "hsla(208, 100%, 31%, 1)",
         tertiary: "hsl(224, 6%, 48%)",
         darkTertiary: "hsl(224, 25%, 56%)",
         darkPrimary: "hsl(0, 0%, 100%)",

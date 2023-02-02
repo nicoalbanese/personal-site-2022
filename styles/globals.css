@@ -99,7 +99,7 @@
 
 @layer utilities {
   .underline {
-    text-decoration-color: hsl(144, 72%, 25%);
+    text-decoration-color: hsla(208, 100%, 31%, 1);
   }
   @layer dark {
     .underline-dark {
