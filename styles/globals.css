@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
   body {
     @apply font-sans bg-background dark:bg-darkBackground text-primary dark:text-darkPrimary selection:bg-selection selection:text-primary;
@@ -23,10 +24,10 @@
   }
 
   a {
-    @apply underline transition duration-300 ease-in-out dark:underline-dark text-link dark:text-darkLink;
+    @apply transition duration-300 ease-in-out  text-link dark:text-darkLink dark:decoration-white;
   }
   a:hover {
-    @apply underline transition duration-300 ease-in-out dark:underline-dark text-primary dark:text-darkPrimary;
+    @apply underline transition duration-300  ease-in-out dark:decoration-white text-link dark:text-darkPrimary;
   }
 
   #md-display code {
@@ -97,16 +98,7 @@
 
 }
 
-@layer utilities {
-  .underline {
-    text-decoration-color: hsla(208, 100%, 31%, 1);
-  }
-  @layer dark {
-    .underline-dark {
-      text-decoration-color: hsl(144, 100%, 98%);
-    }
-  }
-}
+
 
 h1 {
   @apply font-bold text-3xl mb-1;
@@ -117,4 +109,31 @@ h2 {
 }
 h4 {
   @apply font-bold text-xl mb-1;
+}
+
+
+#os-article p {
+  @apply mb-4
+}
+
+#os-article h3 {
+  @apply font-extrabold text-xl mt-6 mb-2;
+}
+#os-article h2 {
+  @apply font-bold text-[1.75rem] mb-2 mt-8;
+}
+
+#os-article ul {
+  @apply my-2 ml-6 list-disc list-outside text-secondary dark:text-darkSecondary text-sm;
+}
+
+#os-article > ul {
+  @apply mb-8;
+}
+#os-article ol {
+  @apply my-2 ml-6 list-decimal list-outside text-secondary dark:text-darkSecondary;
+}
+
+#os-article li {
+  @apply mb-2 pl-2;
 }

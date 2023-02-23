@@ -4,6 +4,13 @@ import Layout from "../../components/layout";
 const SIDEPROJECT_DETAILS = [
   {
     id: 0,
+    title: "Deal Flow OS - Open Source",
+    description:
+      "open-source deal flow management system built on top of Airtable and next.js",
+    slug: "dealflow-os",
+  },
+  {
+    id: 0,
     title: "Dealflow Hub",
     description:
       "lightweight interface on top of airtable to query, add, and interact with base",
@@ -42,7 +49,7 @@ const Project = ({
   return (
     <Link
       href={`/projects/${slug}`}
-      className="no-underline hover:no-underline hover:opacity-60 my-4 inline-block"
+      className="no-underline hover:no-underline hover:opacity-60 my-2 inline-block"
     >
       <div id="header-link" className="font-bold underline">
         <span>{title}</span>
