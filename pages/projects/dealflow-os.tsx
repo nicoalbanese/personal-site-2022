@@ -12,21 +12,31 @@ const DealflowOS = () => {
           property="description"
           content="Open-source deal flow management system"
         />
+        <meta property="twitter:card" content="summary" />
+        <meta property="twitter:site" content="@nicoalbanese10" />
         <meta
           property="twitter:description"
           content="Open-source deal flow management system"
         />
-        <meta property="og:image" content="https://nicoalbanese.com/dfos-cover.png" />
-        <meta property="twitter:image" content="https://nicoalbanese.com/dfos-cover.png" />
+        <meta
+          property="og:image"
+          content="https://nicoalbanese.com/dfos-cover.png"
+        />
+        <meta
+          property="twitter:image"
+          content="https://nicoalbanese.com/dfos-cover.png"
+        />
       </Head>
       <div id="os-article">
         <Link href="/projects">back</Link>
         <h1>Deal Flow OS</h1>
         <h3 className="">Open-Source Deal Flow Management System</h3>
         <p>
-          I&#39;m excited to release Deal Flow OS, an open-source(ish) deal
-          flow management system. This system was built to cover the deal flow
-          management requirements of <Link href={"https://ascension.vc"}>Ascension</Link>, an early-stage VC fund.
+          I&#39;m excited to release Deal Flow OS, an open-source(ish) deal flow
+          management system. This system was built to cover the deal flow
+          management requirements of{" "}
+          <Link href={"https://ascension.vc"}>Ascension</Link>, an early-stage
+          VC fund.
         </p>
         <div className="mt-4 mb-8">
           <h3>Demo</h3>
@@ -52,12 +62,17 @@ const DealflowOS = () => {
           </div>
         </div>
         <p>
-          Over the last ~5 years, we (Ascension) have tried many solutions
-          (<Link href="https://www.affinity.co/">Affinity</Link>, <Link href="https://attio.com/">Attio</Link>, <Link href="https://docs.google.com/spreadsheets/">Google Sheets</Link>, <Link href="https://www.notion.so/" >Notion</Link>) for managing deal flow but
-          for a variety of reasons, none of them stuck. While the product is
-          important, ultimately a system of any kind is only as good as the
-          people using it, and the key requirement for us has always been, at
-          its core, an easy and reliable way of adding and querying
+          Over the last ~5 years, we (Ascension) have tried many solutions (
+          <Link href="https://www.affinity.co/">Affinity</Link>,{" "}
+          <Link href="https://attio.com/">Attio</Link>,{" "}
+          <Link href="https://docs.google.com/spreadsheets/">
+            Google Sheets
+          </Link>
+          , <Link href="https://www.notion.so/">Notion</Link>) for managing deal
+          flow but for a variety of reasons, none of them stuck. While the
+          product is important, ultimately a system of any kind is only as good
+          as the people using it, and the key requirement for us has always
+          been, at its core, an easy and reliable way of adding and querying
           opportunities. Some products were super powerful, but too intimidating
           to configure. Others were easy to configure, but didn’t play nice with
           integrations and lacked extensibility.
@@ -173,10 +188,12 @@ const DealflowOS = () => {
         </p>
         <h2>Instructions</h2>
         <p>
-          I&#39;m still pulling together the instructions for getting up and running
-          and they will be released at some point over the coming weekend (25
-          Feb). If you&#39;re interested in being notified upon release, fill in{" "}
-          <Link href={"https://airtable.com/shrYElayOSg0tlz5C"}>this form</Link>.
+          I&#39;m still pulling together the instructions for getting up and
+          running and they will be released at some point over the coming
+          weekend (25 Feb). If you&#39;re interested in being notified upon
+          release, fill in{" "}
+          <Link href={"https://airtable.com/shrYElayOSg0tlz5C"}>this form</Link>
+          .
         </p>
       </div>
     </Layout>
