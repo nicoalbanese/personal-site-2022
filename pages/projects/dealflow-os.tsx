@@ -188,7 +188,7 @@ const DealflowOS = () => {
         </p>
         <h2>Instructions</h2>
         <p>
-          I&#39;m still pulling together the instructions for getting up and
+          The repo is <Link href={"https://github.com/nicoalbanese/df-hub-opensource"}>here</Link>, however, I&#39;m still pulling together the instructions for getting up and
           running and they will be released at some point over the coming
           weekend (25 Feb). If you&#39;re interested in being notified upon
           release, fill in{" "}
