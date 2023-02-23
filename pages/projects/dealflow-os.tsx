@@ -16,8 +16,8 @@ const DealflowOS = () => {
           property="twitter:description"
           content="Open-source deal flow management system"
         />
-        <meta property="og:image" content="dfos-cover.png" />
-        <meta property="twitter:image" content="dfos-cover.png" />
+        <meta property="og:image" content="images/dfos-cover.png" />
+        <meta property="twitter:image" content="images/dfos-cover.png" />
       </Head>
       <div id="os-article">
         <Link href="/projects">back</Link>
