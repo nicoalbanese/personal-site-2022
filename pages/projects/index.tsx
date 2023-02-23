@@ -11,19 +11,20 @@ const SIDEPROJECT_DETAILS = [
   },
   {
     id: 0,
-    title: "Dealflow Hub",
+    title: "Deal Flow Hub",
     description:
       "lightweight interface on top of airtable to query, add, and interact with base",
     slug: "dealflow-hub",
   },
-//   { id: 1, title: "", description: "", slug: "" },
-//   { id: 2, title: "", description: "", slug: "" },
-//   { id: 3, title: "", description: "", slug: "" },
+  //   { id: 1, title: "", description: "", slug: "" },
+  //   { id: 2, title: "", description: "", slug: "" },
+  //   { id: 3, title: "", description: "", slug: "" },
 ];
 
 const Projects = () => {
   return (
     <Layout>
+      <Link href={"/"}>back</Link>
       <h1>Projects</h1>
       <div id="projects-container">
         {SIDEPROJECT_DETAILS.map((project) => (
@@ -71,7 +72,7 @@ const Project = ({
           </svg>
         </span>
       </div>
-      <div id="description" className="text-primary dark:text-darkPrimary" >
+      <div id="description" className="text-primary dark:text-darkPrimary">
         {description}
       </div>
     </Link>
