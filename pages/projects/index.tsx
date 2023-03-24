@@ -3,7 +3,14 @@ import Layout from "../../components/layout";
 
 const SIDEPROJECT_DETAILS = [
   {
-    id: 0,
+    id: 2,
+    title: "Pitch to PDF",
+    description:
+      "chrome extension to download pitch.com presentations",
+    slug: "pitch-to-pdf",
+  },
+  {
+    id: 1,
     title: "Deal Flow OS - Open Source",
     description:
       "open-source deal flow management system built on top of Airtable and next.js",
@@ -64,9 +71,9 @@ const Project = ({
           >
             <path
               d="M1 3.99994H9.5M9.5 3.99994L6.5 0.999939M9.5 3.99994L6.5 7.00006"
-              stroke-width="1.5"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="1.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="stroke-current text-tertiary dark:text-darkTertiary"
             ></path>
           </svg>
